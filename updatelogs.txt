@@ -88,6 +88,12 @@ T022:
 - Updated Keras model checkpoint filenames to comply with modern Keras
 - Added tensorflow log suppression to hide unnecessary CPU/GPU startup messages
 
+T031:
+- Got rid of mordred dependency
+- Updated to new papyrus usage
+- Changed pandas to polars dataframes when working with papyrus data
+- minor tweaks in helpers PCM and QSAR modeling
+
 
 -----------------------------------------------------------------------------
 T011, T012, T023, T024, T025, T026, T027 and T028:
