@@ -71,10 +71,10 @@ T019:
 - talktorial for learning the basics of MD
 - Based on tutorials from openmm and teachopencadd (old) talktorials T019 and T020
 
-T020: TODO: 
+T020:  
 - Added protein-ligand simulation that was in old T019
 - Precomputed ligand parameters 
-- Check suitable/acceptable simulation time for tutorial (TODO:)
+- Check suitable/acceptable simulation time for tutorial 
 
 T021:
 - Removed dependency on PandasTools
@@ -82,17 +82,17 @@ T021:
 - Added pip install tensorflow to enable students to run the supplementary matrial in Noteable
 
 T022:
-- Removed dependency on PandasTools
+- Removed dependency on PandasTools and Mordred
 - Added pip install tensorflow to enable students to run the notebook in Noteable
 - Updated scikit-learn one-hot encoding 
 - Updated Keras model checkpoint filenames to comply with modern Keras
 - Added tensorflow log suppression to hide unnecessary CPU/GPU startup messages
 
-T031:
+T032:
 - Got rid of mordred dependency
 - Updated to new papyrus usage
 - Changed pandas to polars dataframes when working with papyrus data
-- minor tweaks in helpers PCM and QSAR modeling
+- Updated helpers PCM and QSAR modeling mainly to avoid column-order assumptions
 
 
 -----------------------------------------------------------------------------
@@ -105,4 +105,3 @@ Known issue ngl view:
 - Functionality is unaffected.
 - Root cause is an upstream dependency in NGLView.
 - No notebook changes required.
-- TODO: Longer term: Replace NGLView with another molecular viewer
